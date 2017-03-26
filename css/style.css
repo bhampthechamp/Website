@@ -1,0 +1,234 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*Navi*/
+.navi {
+  background: #262627;
+  height: 5em;
+  padding-top: .15em;
+  padding-bottom: 1.125em;
+}
+
+.nav {
+  font-family: 'Fjalla One', sans-serif;
+  display: inline-block;
+  margin-top:1em;
+  color: #008952;
+  /*color: rgba(255,255,255,0.5);*/
+}
+.navi li a {
+  color: white;
+}
+
+.navi li a:hover {
+ background-color: #008952;
+}
+
+.navi li.active a {
+  background-color: #00a55e;
+}
+
+.navi h1{
+	color: white;
+	font-size: 1.75em;
+	font-family: 'Fjalla One' , sans-serif;
+
+}
+
+
+/*Main*/
+.jumbotron {
+	background: url(../img/header_pic.jpg) no-repeat ;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 0;
+	height: 40em;
+	font-family: 'Fjalla One', sans-serif;
+	text-shadow:#000 0px 0px 3px;
+}
+
+.jumbotron h2{
+	color: white;
+	font-size: 4em;
+	padding-top: 1.85em;
+}
+
+.jumbotron p{
+	font-size: 1.5em;
+	color: white;
+}
+
+.jumbotron .btn {
+  background-color: #008952;
+  border-radius: .25em;
+  color: #fff;
+  padding: 1em 3.75em;
+  transition: box-shadow 0.25s;
+}
+
+.jumbotron .btn:hover {
+  background-color: #009B5E;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.6);
+  border-radius: .25em;
+  color: #fff;
+  padding: 1em 3.75em;
+  text-decoration: none;
+  transition: box-shadow 0.25s;
+}
+/*section*/
+.section {
+  background-color: #EEEEEE;
+  text-align: center;
+  padding-top: .75em;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.section h3:first-child {
+  color: black;
+  font-size: 3em;
+}
+
+.section h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  font-size: 30px;
+}
+
+.banner h3 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.section h4 {
+  margin: 30px 0 20px;
+  padding: 0;
+  font-size: 2em;
+}
+
+.section .btn {
+  background-color: #008952;
+  border-radius: .25em;
+  color: #fff;
+  padding: 1em 3.75em;
+  transition: box-shadow 0.25s;
+  margin-bottom: 3em;
+}
+
+.section .btn:hover {
+  background-color: #009B5E;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.6);
+  border-radius: .25em;
+  color: #fff;
+  padding: 1em 3.75em;
+  text-decoration: none;
+  transition: box-shadow 0.25s;
+}
+.page-header {
+    border-bottom: 1px solid #cecece;
+}
+.section img{
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(0, 0, 0);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(0, 0, 0);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 1.5em;
+  height: 223px;
+  width: 223px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+/* CONTACT */
+.contact {
+  background-color: #EEEEEE;
+  padding-top: .75em;
+  font-family: 'Fjalla One', sans-serif;
+}
+.contact h3:first-child {
+  color: #008952 ;
+  font-size: 3em;
+  text-align: center;
+}
+
+.contact h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  font-size: 30px;
+}
+.contact .page-header {
+  margin-bottom: 2em;
+}
+
+.label {
+  text-align: left;
+
+}
+.sub-btn{
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+  background-color: #008952;
+  border-radius: .25em;
+  color: #fff;
+  padding: 1em 3.75em;
+  transition: box-shadow 0.25s;
+  margin-bottom: 3em;
+}
+input[type=submit]:hover {
+  background-color: #009B5E;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.6);
+  border-radius: .25em;
+  color: #fff;
+  padding: 1em 3.75em;
+  text-decoration: none;
+  transition: box-shadow 0.25s;
+}
+ .col-md-6 p {
+   padding-bottom: 2em;
+
+}
+
+/* FOOTER */
+.footer {
+  background: #262627;
+  height: 5em;
+  padding-top: .15em;
+  padding-bottom: 1.125em;
+
+}
